@@ -1,0 +1,21 @@
+:root {
+  --orange: #d42f0d;
+  --green: #006c38;
+  --blue: #28318a;
+  --purple: #900084;
+}
+
+@font-face {
+  font-family: "proximanova_regular";
+  src: url("./assets/fonts/proximanova_regular.ttf") format("truetype");
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button,
+li {
+  font-family: "proximanova_regular";
+}
