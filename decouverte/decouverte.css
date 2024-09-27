@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  color: var(--blue);
+}
+img {
+  border-radius: 10px;
+}
+
+#play-set,
+#spiral-set {
+  height: auto;
+  width: 80vw;
+  max-width: 450px;
+}
+
+#pictures-container,
+.picture-container {
+  display: flex;
+  justify-content: center;
+}
+.buying-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.buy-button {
+  text-decoration: none;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 25px;
+  font-size: 1.5em;
+  padding: 0.6em;
+}
+.game-picture {
+  height: auto;
+  width: 80vw;
+  max-width: 450px;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  width: 80vw;
+  height: 45vw;
+  max-width: 691px;
+  max-height: 389px;
+}
