@@ -1,22 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 90%;
+}
+#carousel {
+  display: none;
+}
 h1 {
   text-align: center;
   color: var(--blue);
 }
+#fisrt-paragraph {
+  font-weight: bold;
+}
+p {
+  text-align: justify;
+}
+h1,
+p {
+  padding: 1em 0em;
+}
 img {
   border-radius: 10px;
 }
-
 #play-set,
 #spiral-set {
   height: auto;
   width: 80vw;
-  max-width: 450px;
+  max-width: 400px;
 }
 
 #pictures-container,
 .picture-container {
   display: flex;
   justify-content: center;
+  margin: 1em 0em;
 }
 .buying-container {
   display: flex;
@@ -24,6 +45,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  margin: 1em 0em;
 }
 .buy-button {
   text-decoration: none;
@@ -36,15 +58,62 @@ img {
 .game-picture {
   height: auto;
   width: 80vw;
-  max-width: 450px;
+  max-width: 400px;
 }
 .video-container {
   display: flex;
   justify-content: center;
+  margin: 2em 0em;
 }
 iframe {
   width: 80vw;
   height: 45vw;
   max-width: 691px;
   max-height: 389px;
+}
+.secondary-pictures {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #carousel {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  h1 {
+    text-align: left;
+    width: 90%;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  .secondary-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  }
+  .other-picture {
+    height: 22vw;
+    width: auto;
+    max-width: 331px;
+    max-height: 220px;
+  }
+  #play-set {
+    height: 45vw;
+    width: auto;
+    max-width: 450px;
+    max-height: 450px;
+  }
+  #pictures-container {
+    gap: 0.5em;
+  }
+  .picture-container {
+    display: none;
+  }
+  .video-container {
+    margin: 3em 0em;
+  }
+  .buying-container {
+    gap: 2em;
+  }
 }
