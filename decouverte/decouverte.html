@@ -14,11 +14,17 @@
 
   <body>
     <header>
-      <img
-        id="carousel"
-        src="../assets/images/bandeau1.webp"
-        alt="jeu de carte de la batarde dans une main"
-      />
+      <picture>
+        <source
+          srcset="../assets/images/bandeau2.webp"
+          media="(min-width: 1200px)"
+        />
+        <img
+          id="carousel"
+          src="../assets/images/bandeau1.webp"
+          alt="jeu de carte de la batarde dans une main"
+        />
+      </picture>
     </header>
     <h1>Découverte du jeu</h1>
     <main>
@@ -29,7 +35,7 @@
         déjà. On joue à La Bâtarde avec des cartes spéciales mais, là encore,
         les joueurs de cartes trouveront vite leurs repères.
       </p>
-      <div>
+      <div id="text-pictures">
         <div id="pictures-container">
           <img
             id="play-set"
@@ -50,7 +56,7 @@
           </div>
         </div>
         <div>
-          <p>
+          <p id="second-paragraph">
             Jouez à la Bâtarde et vous découvrirez surtout qu’un bon joueur sait
             tirer parti de pratiquement toutes les mains qu’il reçoit. La
             mécanique originale de ce jeu permet à ceux qui maîtrisent La
