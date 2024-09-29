@@ -13,25 +13,50 @@
   </head>
 
   <body>
+    <header>
+      <picture>
+        <source
+          srcset="../assets/images/bandeau2.webp"
+          media="(min-width: 1200px)"
+        />
+        <img
+          id="carousel"
+          src="../assets/images/bandeau1.webp"
+          alt="jeu de carte de la batarde dans une main"
+        />
+      </picture>
+    </header>
     <h1>Découverte du jeu</h1>
-    <article>
-      <p>
+    <main>
+      <p id="fisrt-paragraph">
         Vous aimez la belote, le bridge, le whist ou le tarot, découvrez la
         Bâtarde. La Batârde est un nouveau jeu de cartes, c’est un jeu de plis
         qui combine de façon nouvelle des règles que vous connaissez peut-être
         déjà. On joue à La Bâtarde avec des cartes spéciales mais, là encore,
         les joueurs de cartes trouveront vite leurs repères.
       </p>
-      <div>
+      <div id="text-pictures">
         <div id="pictures-container">
           <img
             id="play-set"
             src="../assets/images/setJeu.webp"
             alt="Set de jeu complet"
           />
+          <div class="secondary-pictures">
+            <img
+              class="other-picture"
+              src="../assets/images/spirale.webp"
+              alt="Cartes éparpillées en spirale"
+            />
+            <img
+              class="other-picture"
+              src="../assets/images/paquet-jeu.webp"
+              alt="recto/verso du paquet de jeu de la batarde"
+            />
+          </div>
         </div>
         <div>
-          <p>
+          <p id="second-paragraph">
             Jouez à la Bâtarde et vous découvrirez surtout qu’un bon joueur sait
             tirer parti de pratiquement toutes les mains qu’il reçoit. La
             mécanique originale de ce jeu permet à ceux qui maîtrisent La
@@ -118,6 +143,6 @@
           >
         </div>
       </div>
-    </article>
+    </main>
   </body>
 </html>

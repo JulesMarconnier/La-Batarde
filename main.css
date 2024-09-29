@@ -5,6 +5,11 @@
   --purple: #900084;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "proximanova_regular";
   src: url("./assets/fonts/proximanova_regular.ttf") format("truetype");
