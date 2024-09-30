@@ -143,4 +143,14 @@ iframe {
   #second-paragraph {
     padding-top: 0;
   }
+  #last-part {
+    display: flex;
+    justify-content: space-between;
+  }
+  #last-text {
+    width: 55%;
+  }
+  .game-picture {
+    max-width: 383px;
+  }
 }
