@@ -35,14 +35,20 @@ img {
   max-width: 400px;
 }
 #new-edition-text {
-  margin: 1em 0em;
+  margin: 1em 0em 1.2em;
 }
 .new-edition {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+.actu {
+  margin: 2.5em 0em;
+}
+.actu img {
+  width: 100%;
+  height: auto;
+}
 #grand-prix {
   display: flex;
   flex-direction: column;
@@ -63,12 +69,13 @@ iframe {
 }
 .game-rules {
   width: 17vw;
+  height: 100%;
   text-align: center;
   font-size: 0.8em;
 }
 .flag {
   width: 15vw;
-  height: auto;
+  height: 100%;
   border-radius: 0;
 }
 .langues {
