@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 90%;
+}
+#carousel {
+  display: none;
+}
+h1 {
+  margin: 1em 0em;
+  text-align: center;
+  color: var(--blue);
+}
+p {
+  text-align: justify;
+}
+img {
+  border-radius: 10px;
+}
+.buy-button {
+  text-decoration: none;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 25px;
+  font-size: 1.4em;
+  padding: 0.6em;
+  font-weight: 600;
+}
+.game-picture {
+  height: auto;
+  width: 80vw;
+  max-width: 400px;
+}
+
+#rules {
+  display: none;
+}
+#new-edition-text {
+  margin: 1em 0em;
+}
+.new-edition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#grand-prix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5em 0em;
+}
+iframe {
+  width: 80vw;
+  height: 45vw;
+  max-width: 691px;
+  max-height: 389px;
+  margin-bottom: 1.5em;
+}
