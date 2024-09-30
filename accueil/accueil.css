@@ -34,10 +34,6 @@ img {
   width: 80vw;
   max-width: 400px;
 }
-
-#rules {
-  display: none;
-}
 #new-edition-text {
   margin: 1em 0em;
 }
@@ -59,4 +55,27 @@ iframe {
   max-width: 691px;
   max-height: 389px;
   margin-bottom: 1.5em;
+}
+.flag-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7em 0em;
+}
+.game-rules {
+  width: 17vw;
+  text-align: center;
+  font-size: 0.8em;
+}
+.flag {
+  width: 15vw;
+  height: auto;
+  border-radius: 0;
+}
+.langues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#rules-text {
+  font-size: 0.9em;
 }
