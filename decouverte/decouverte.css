@@ -52,8 +52,9 @@ img {
   background-color: var(--blue);
   color: white;
   border-radius: 25px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding: 0.6em;
+  font-weight: 600;
 }
 .game-picture {
   height: auto;
@@ -152,5 +153,8 @@ iframe {
   }
   .game-picture {
     max-width: 383px;
+  }
+  .buying-container {
+    padding-right: 1.5em;
   }
 }
