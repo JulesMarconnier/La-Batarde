@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,h2 {
+  text-align: center;
+  color: var(--blue);
+}
+
+h2 {
+  font-size: 1,5em;
+}
+p {
+  text-align: justify;
+}
+
+h1,h2,
+p {
+  padding: 1em 0em;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#logo-federation{
+  width: 20vw;
+  max-width: 400px;
+}
+
+#final-table-container {
+  display: flex;
+  gap: 1em;
+}
+.pictures-final-table {
+  width: 40vw;
+}
+
+#world-cup-2019-containers {
+  display : grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap : 1em;
+}
+
+.world-cup-2019 {
+  width: 40vw;
+}
+img {
+  width: 80vw;
+  max-width: 400px;
+}
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0em;
+}
+
+iframe {
+  width: 80vw;
+  height: 45vw;
+  max-width: 691px;
+  max-height: 389px;
+}
+
+@media screen and (min-width: 768px) {
+  #carousel {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+    border-radius: 0px;
+  }
+
+  h1 {
+    text-align: left;
+    width: 90%;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  .secondary-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  }
+
+  .other-picture {
+    height: 22vw;
+    width: auto;
+    max-width: 331px;
+    max-height: 220px;
+  }
+
+  #play-set {
+    height: 45vw;
+    width: auto;
+    max-width: 450px;
+    max-height: 450px;
+  }
+
+  #pictures-container {
+    gap: 0.5em;
+  }
+
+  .picture-container {
+    display: none;
+  }
+
+  .video-container {
+    margin: 3em 0em;
+  }
+
+  .buying-container {
+    gap: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #text-pictures {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3%;
+    margin-top: 2em;
+  }
+
+  main,
+  h1 {
+    max-width: 1160px;
+  }
+
+  #pictures-container {
+    width: 58%;
+    margin: 0;
+    max-height: 383px;
+  }
+
+  #play-set {
+    height: 100%;
+  }
+
+  .other-picture {
+    height: 49%;
+  }
+
+  #second-paragraph {
+    padding-top: 0;
+  }
+}
