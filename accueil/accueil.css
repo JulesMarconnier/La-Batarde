@@ -128,20 +128,31 @@ iframe {
   p {
     font-size: 1.3em;
   }
+  main {
+    max-width: 1160px;
+  }
   #wrap {
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 2%;
+    justify-content: center;
   }
   .new-edition {
-    width: 40%;
+    width: 47%;
+  }
+  .game-picture {
+    max-width: 500px;
   }
   .actu {
-    width: 58%;
+    width: 51%;
   }
   iframe {
     margin-bottom: 2.5em;
   }
   .actu {
     margin: 1.5em 0em;
+  }
+  .game-rules {
+    width: 100%;
   }
 }
