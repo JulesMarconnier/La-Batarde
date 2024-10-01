@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #software-version-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1,h2 {
+    text-align: center;
+    color: var(--blue);
+  }
+  
+  p {
+    text-align: justify;
+  }
+  h1,h2,
+  p {
+    padding: 1em 0em;
+  }
+  img {
+    border-radius: 10px;
+    width: 80vw;
+    max-width: 400px;
+  }
+
+  .download-button {
+    text-decoration: none;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 25px;
+    font-size: 1.4em;
+    padding: 0.6em;
+    font-weight: 600;
+  }
+ 
+  @media screen and (min-width: 768px) {
+
+    h1 {
+      text-align: left;
+      width: 90%;
+    }
+    p {
+      font-size: 1.1em;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #software-version-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+      }
+    #software-version {
+        grid-row: 1/5;
+        align-self: center;
+    }
+    .download-button {
+        width: 20vw;
+        text-align: center;
+    }
+
+ 
+  }
+  @media screen and (min-width: 1200px) {
+
+    main,
+    h1 {
+      max-width: 1160px;
+    }
+  }
+  
