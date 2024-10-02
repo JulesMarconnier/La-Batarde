@@ -1,0 +1,196 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#top-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wide-shot-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#final-table-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#winner-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: var(--blue);
+}
+
+h2 {
+  text-align: center;
+  color: var(--orange);
+  font-size: 1.25em;
+}
+
+p {
+  text-align: justify;
+}
+
+h1,
+h2,
+p {
+  padding: 1em 0em;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#logo-federation {
+  width: 20vw;
+  max-width: 400px;
+}
+
+#final-table-container {
+  display: flex;
+  gap: 1em;
+}
+
+.pictures-final-table {
+  width: 40vw;
+}
+
+#world-cup-2019-containers {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.world-cup-2019 {
+  width: 40vw;
+}
+
+img {
+  width: 80vw;
+  max-width: 400px;
+}
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0em;
+}
+
+iframe {
+  width: 80vw;
+  height: 45vw;
+  max-width: 691px;
+  max-height: 389px;
+}
+
+@media screen and (min-width: 768px) {
+
+  h1 {
+    text-align: left;
+    width: 90%;
+    padding: 0;
+  }
+
+  h2 {
+    align-self: flex-start;
+    text-align: left;
+    padding: 0;
+  }
+
+  #world-cup-title {
+    align-self: center;
+  }
+  h3 {
+    align-self: flex-start;
+  }
+  p {
+    font-size: 1.1em;
+    align-self: flex-start;
+  }
+
+  #prizes {
+    max-width: none;
+    width: 60vw;
+  }
+  #top-page {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+  }
+
+  #logo-federation {
+    width: 5vw;
+    grid-column: 2 / 3;
+    grid-row: 1 /3;
+    justify-self: end;
+  }
+
+
+  #wide-shot-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+  }
+  #wide-shot-text {
+    grid-column: 1/2;
+    grid-row : 1/2;
+  }
+  #wide-shot {
+    grid-column:2 /3 ;
+    grid-row : 1/2;
+  }
+
+  #final-table-desktop {
+    flex-direction: column-reverse;
+  }
+
+  #winner-desktop {
+    flex-direction: column-reverse;
+  }
+
+
+
+  .video-container {
+    margin: 3em 0em;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  main,
+  h1 {
+    max-width: 1160px;
+  }
+
+
+
+
+
+
+}
