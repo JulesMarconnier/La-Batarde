@@ -27,7 +27,8 @@ h3 {
 }
 
 p {
-  width: 50%;
+  width: 80vw; /* Même largeur que les images */
+  max-width: 400px;
   margin: 0 auto;
   text-align: justify;
   padding: 1em 0em;
@@ -44,15 +45,19 @@ img {
 
 #locations h4 {
   margin-top: 1.5em;
-  text-align: left;
+  width: 80vw; /* Même largeur que les images et paragraphes */
+  max-width: 400px;
+  margin: 0 auto; /* Centrer les titres */
+  text-align: left; /* Garde le texte aligné à gauche à l'intérieur */
 }
 
 #locations ul {
+  width: 80vw; /* Même largeur que les images et textes */
+  max-width: 400px;
+  margin: 0 auto;
   list-style: none;
   padding: 0;
   text-align: left;
-  width: 60%;
-  margin: 0 auto;
 }
 
 #locations ul li {
@@ -61,11 +66,11 @@ img {
 
 #locations ul li a {
   display: inline-block;
-  padding: 0.5em;
+  padding-left: 0; /* Aligner les liens à gauche avec les h4 */
 }
 
 #locations ul li a:hover {
-  background-color: var(--orange); /* couleur de survol */
+  background-color: var(--orange);
   color: white;
 }
 
