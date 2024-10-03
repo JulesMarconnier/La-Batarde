@@ -10,7 +10,8 @@ main {
   align-items: center;
 }
 
-h1,h2 {
+h1,
+h2 {
   text-align: center;
   color: var(--blue);
 }
@@ -18,7 +19,8 @@ h1,h2 {
 p {
   text-align: justify;
 }
-h1,h2,
+h1,
+h2,
 p {
   padding: 1em 0em;
 }
@@ -28,10 +30,10 @@ img {
   max-width: 400px;
 }
 #amazon-button {
-  margin : 1em;
+  margin: 1em;
 }
 #amazon-button > img {
-  width : 60vw;
+  width: 60vw;
 }
 header {
   display: flex;
@@ -95,7 +97,8 @@ header {
   font-weight: bold;
 }
 .nav-links {
-  display: none; /* Hidden by default */
+  list-style-type: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
@@ -103,26 +106,43 @@ header {
   top: 50px;
   right: 0;
   width: 70vw;
-  max-height: 80vh;
-  padding: 20px;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  transition: max-height 1s ease, opacity 0.8s ease;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  }
+}
 
 .nav-links.active {
   display: flex;
+  opacity: 1;
+  max-height: 800px;
+}
+
+.burger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .line:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 
 #facebook-button {
-  margin : 1em;
+  margin: 1em;
 }
 #facebook-button > img {
-  width : 10vw;
+  width: 10vw;
 }
 
 #facebook {
   justify-self: flex-end;
 }
-.navbar-mobile{
+.navbar-mobile {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -130,7 +150,6 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-
   h1 {
     text-align: left;
     width: 90%;
@@ -139,11 +158,11 @@ header {
     font-size: 1.1em;
   }
 
-  h2{
-      text-align: center;
+  h2 {
+    text-align: center;
   }
 
-  main{
+  main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 60vh 20vh 30vh;
@@ -152,8 +171,8 @@ header {
   }
 
   #sales-gif {
-    grid-row: 1 /2 ;
-    grid-column: 1 /2 ;
+    grid-row: 1 /2;
+    grid-column: 1 /2;
   }
 
   #sales-text {
@@ -168,7 +187,7 @@ header {
 
   #editor-logo {
     grid-column: 2/3;
-    grid-row : 1/ 2 ;
+    grid-row: 1/ 2;
   }
   .nav-links {
     display: flex;
@@ -177,6 +196,8 @@ header {
     box-shadow: none;
     width: 100%;
     justify-content: space-between;
+    max-height: none;
+    opacity: 1;
   }
 
   .nav-links li {
@@ -215,11 +236,8 @@ header {
     display: flex;
     flex-direction: column;
   }
-
-
 }
 @media screen and (min-width: 1200px) {
-
   main,
   h1 {
     max-width: 1160px;
