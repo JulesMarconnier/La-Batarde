@@ -20,14 +20,14 @@ h1 {
   padding: 1em 0em;
 }
 
-h3 {
+h2 {
   text-align: center;
   color: var(--orange);
   padding: 1em 0em;
 }
 
 p {
-  width: 80vw; /* Même largeur que les images */
+  width: 80vw;
   max-width: 400px;
   margin: 0 auto;
   text-align: justify;
@@ -45,14 +45,14 @@ img {
 
 #locations h4 {
   margin-top: 1.5em;
-  width: 80vw; /* Même largeur que les images et paragraphes */
+  width: 80vw;
   max-width: 400px;
-  margin: 0 auto; /* Centrer les titres */
-  text-align: left; /* Garde le texte aligné à gauche à l'intérieur */
+  margin: 0 auto;
+  text-align: left;
 }
 
 #locations ul {
-  width: 80vw; /* Même largeur que les images et textes */
+  width: 80vw;
   max-width: 400px;
   margin: 0 auto;
   list-style: none;
@@ -66,7 +66,7 @@ img {
 
 #locations ul li a {
   display: inline-block;
-  padding-left: 0; /* Aligner les liens à gauche avec les h4 */
+  padding-left: 0;
 }
 
 #locations ul li a:hover {
@@ -76,4 +76,65 @@ img {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    text-align: center;
+    width: 90%;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  img {
+    width: 70vw;
+    max-width: 450px;
+    max-height: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main,
+  h1 {
+    max-width: 1160px;
+  }
+
+  img {
+    width: 80vw;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    font-size: 1.3em;
+    width: 80vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #locations h4 {
+    font-size: 1.5em;
+    width: 80vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  #locations ul {
+    width: 80vw;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  #locations ul li a {
+    font-size: 1.2em;
+  }
 }
