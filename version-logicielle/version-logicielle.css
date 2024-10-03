@@ -67,6 +67,7 @@ header {
   justify-content: space-between;
   height: 25px;
   width: 30px;
+  margin: 0.25em;
 }
 
 .line {
@@ -135,6 +136,12 @@ header {
   justify-self: flex-end;
 }
 
+.navbar-mobile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
 @media screen and (min-width: 768px) {
   h1 {
     text-align: left;
@@ -162,7 +169,6 @@ header {
     width: 20vw;
     text-align: center;
   }
-
   .nav-links {
     display: flex;
     flex-direction: row;
