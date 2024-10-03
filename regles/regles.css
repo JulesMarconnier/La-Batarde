@@ -239,7 +239,7 @@ header {
     font-size: 1.3em;
   }
   main {
-    max-width: 1160px;
+    width: 100%;
   }
   .game-rules {
     width: 100%;
