@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>La Bâtarde</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Règles du jeu</title>
     <link
       rel="shortcut icon"
       href="../assets/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="accueil.css" />
     <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="regles.css" />
   </head>
   <body>
     <header>
@@ -34,58 +34,23 @@
             <li id="facebook"><a id="facebook-button" href="#"><img src="../assets/images/Facebook.webp" alt="Amazon"/></a></li>
           </ul>
         </nav>
-      <picture>
-        <source
-          srcset="../assets/images/bandeau2.webp"
-          media="(min-width: 1200px)"
-        />
-        <img
-          id="carousel"
-          src="../assets/images/bandeau1.webp"
-          alt="jeu de carte de la batarde dans une main"
-        />
-      </picture>
     </header>
+    <h1>Règles du jeu</h1>
     <main>
-      <div id="wrap">
-        <section class="new-edition">
-          <h1>La nouvelle édition de la Bâtarde est sortie !</h1>
-          <img
-            class="game-picture"
-            src="../assets/images/labatarde.webp"
-            alt="ensemble de jeu complet de la Bâtarde"
-          />
-          <p id="new-edition-text">
-            Distribuée par Wilson Jeux, elle est désormais disponible dans
-            toutes les bonnes boutiques de jeux de France.
-          </p>
-          <a class="buy-button" href="../achat/achat.html">Acheter un jeu</a>
-        </section>
-        <section class="actu">
-          <img
-            src="../assets/images/championnat.webp"
-            alt="Flyers du 1er championnat de Bâtarde à 3 joueurs le 12 octobre 2024"
-          />
-        </section>
-        <section id="grand-prix">
-          <iframe
-            src="https://player.vimeo.com/video/143868338"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-          <p>
-            Regardez cette vidéo et assistez à la table finale du Grand Prix de
-            Lyon de Bâtarde. Ingrid Gautier, Arthur Marconnier, le champion du
-            monde Julien Grange et Frank "Perceval" Pitiot, le spécialiste du
-            Cul de Chouette, se disputent la victoire. Découvrez la Bâtarde
-            grâce à cette partie commentée par Marie Michellier et Alexandre de
-            Roman.
-          </p>
-        </section>
-      </div>
+      <section id="video">
+        <p>
+          Vous pouvez retrouver une explication des règles en vidéo grâce à
+          Ludochrono :
+        </p>
+        <iframe
+          src="https://www.youtube.com/embed/fX_LAxPBL10?si=Cor6nM46csW9iSOg"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
       <section id="rules">
         <p id="rules-text">
           Vous pouvez télécharger les règles du jeu dans différentes langues :
@@ -133,7 +98,7 @@
           </a>
         </div>
       </section>
-      <script src="../javascript/burger.js"></script>
     </main>
+    <script src="../javascript/burger.js"></script>
   </body>
 </html>
