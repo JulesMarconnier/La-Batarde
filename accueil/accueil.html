@@ -16,26 +16,64 @@
     <header>
       <nav class="navbar-mobile">
         <p id="banner">Space-Between</p>
-          <div class="burger" id="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
-          <ul class="nav-links" id="nav-links">
-            <li><a class="purple-link" href="../accueil/accueil.html">Accueil</a></li>
-            <li><a class="blue-link" href="../decouverte/decouverte.html">Découverte</a></li>
-            <li><a class="orange-link" href="../regles/regles.html">Règles</a></li>
-            <li><a class="green-link" href="../conseils/conseils.html">Conseils de jeux</a></li>
-            <li><a class="purple-link" href="../palmarès/palmares.html">Palmarès</a></li>
-            <li><a class="blue-link" href="../collection/collection.html">Collection</a></li>
-            <li><a class="orange-link" href="../version-logicielle/version-logicielle.html">Version Logicielle</a></li>
-            <li id="nav-buy"><a class="green-link" href="../achat/achat.html">Achat</a></li>
-            <li><a class="purple-link" id="green-desktop" href="../ou_jouer/ou_jouer.html">Où Jouer</a></li>
-            <li id="facebook"><a id="facebook-button" href="#"><img src="../assets/images/Facebook.webp" alt="Amazon"/></a></li>
-          </ul>
-        </nav>
-      <picture>
+        <div class="burger" id="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li>
+            <a class="purple-link" href="../accueil/accueil.html">Accueil</a>
+          </li>
+          <li>
+            <a class="blue-link" href="../decouverte/decouverte.html"
+              >Découverte</a
+            >
+          </li>
+          <li>
+            <a class="orange-link" href="../regles/regles.html">Règles</a>
+          </li>
+          <li>
+            <a class="green-link" href="../conseils/conseils.html"
+              >Conseils de jeux</a
+            >
+          </li>
+          <li>
+            <a class="purple-link" href="../palmarès/palmares.html">Palmarès</a>
+          </li>
+          <li>
+            <a class="blue-link" href="../collection/collection.html"
+              >Collection</a
+            >
+          </li>
+          <li>
+            <a
+              class="orange-link"
+              href="../version-logicielle/version-logicielle.html"
+              >Version Logicielle</a
+            >
+          </li>
+          <li id="nav-buy">
+            <a class="green-link" href="../achat/achat.html">Achat</a>
+          </li>
+          <li>
+            <a
+              class="purple-link"
+              id="green-desktop"
+              href="../ou_jouer/ou_jouer.html"
+              >Où Jouer</a
+            >
+          </li>
+          <li id="facebook">
+            <a id="facebook-button" href="#"
+              ><img src="../assets/images/Facebook.webp" alt="Amazon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <picture id="carousel-container">
         <source
+          id="carouselDesktop"
           srcset="../assets/images/bandeau2.webp"
           media="(min-width: 1200px)"
         />
@@ -44,6 +82,20 @@
           src="../assets/images/bandeau1.webp"
           alt="jeu de carte de la batarde dans une main"
         />
+        <button onclick="changeImage('prev')" id="prev" class="carousel-button">
+          <img
+            alt="bouton suivant"
+            class="carousel-svg"
+            src="../assets/svg/prev.svg"
+          />
+        </button>
+        <button id="next" onclick="changeImage('next')" class="carousel-button">
+          <img
+            alt="bouton précedent"
+            class="carousel-svg"
+            src="../assets/svg/next.svg"
+          />
+        </button>
       </picture>
     </header>
     <main>
@@ -134,6 +186,7 @@
         </div>
       </section>
       <script src="../javascript/burger.js"></script>
+      <script src="../javascript/carousel.js"></script>
     </main>
   </body>
 </html>
