@@ -330,10 +330,3 @@ header {
     flex-direction: column;
   }
 }
-
-@media screen and (min-width: 1200px) {
-  main,
-  h1 {
-    max-width: 1160px;
-  }
-}
