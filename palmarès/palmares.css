@@ -6,6 +6,7 @@ body {
 
 main {
   width: 90%;
+  max-width: 1160px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,11 +258,6 @@ header {
     justify-self: end;
   }
 
-  #wide-shot-desktop {
-    display: grid;
-    grid-template-columns: 55vw 35vw;
-    justify-items: center;
-  }
   #wide-shot-text {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -328,5 +324,17 @@ header {
   header {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #wide-shot-desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8%;
+    justify-items: center;
+  }
+  #Next-to-picture {
+    align-self: center;
   }
 }
