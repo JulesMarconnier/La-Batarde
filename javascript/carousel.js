@@ -5,9 +5,9 @@ const images = [
 ];
 
 const imagesDesktop = [
-  "../assets/images/bandeau2.webp",
-  "../assets/images/bandeauD2.webp",
-  "../assets/images/bandeauD3.webp",
+  "../assets/images/bandeau_desktop.webp",
+  "../assets/images/bandeau2_desktop.webp",
+  "../assets/images/bandeau3_desktop.webp",
 ];
 let currentIndex = 0;
 
