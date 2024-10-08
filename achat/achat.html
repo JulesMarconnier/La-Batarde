@@ -23,40 +23,113 @@
           <div class="line"></div>
         </div>
         <ul class="nav-links" id="nav-links">
-          <li><a class="purple-link" href="../accueil/accueil.html">Accueil</a></li>
-          <li><a class="blue-link" href="../decouverte/decouverte.html">Découverte</a></li>
-          <li><a class="orange-link" href="../regles/regles.html">Règles</a></li>
-          <li><a class="green-link" href="../conseils/conseils.html">Conseils de jeux</a></li>
-          <li><a class="purple-link" href="../palmarès/palmares.html">Palmarès</a></li>
-          <li><a class="blue-link" href="../collection/collection.html">Collection</a></li>
-          <li><a class="orange-link" href="../version-logicielle/version-logicielle.html">Version Logicielle</a></li>
-          <li id="nav-buy"><a class="green-link" href="../achat/achat.html">Achat</a></li>
-          <li><a class="purple-link" id="green-desktop" href="../ou_jouer/ou_jouer.html">Où Jouer</a></li>
-          <li id="facebook"><a id="facebook-button" href="#"><img src="../assets/images/Facebook.webp" alt="Amazon"/></a></li>
+          <li>
+            <a class="purple-link" href="../accueil/accueil.html">Accueil</a>
+          </li>
+          <li>
+            <a class="blue-link" href="../decouverte/decouverte.html"
+              >Découverte</a
+            >
+          </li>
+          <li>
+            <a class="orange-link" href="../regles/regles.html">Règles</a>
+          </li>
+          <li>
+            <a class="green-link" href="../conseils/conseils.html"
+              >Conseils de jeux</a
+            >
+          </li>
+          <li>
+            <a class="purple-link" href="../palmarès/palmares.html">Palmarès</a>
+          </li>
+          <li>
+            <a class="blue-link" href="../collection/collection.html"
+              >Collection</a
+            >
+          </li>
+          <li>
+            <a
+              class="orange-link"
+              href="../version-logicielle/version-logicielle.html"
+              >Version Logicielle</a
+            >
+          </li>
+          <li id="nav-buy">
+            <a class="green-link" href="../achat/achat.html">Achat</a>
+          </li>
+          <li>
+            <a
+              class="purple-link"
+              id="green-desktop"
+              href="../ou_jouer/ou_jouer.html"
+              >Où Jouer</a
+            >
+          </li>
+          <li id="facebook">
+            <a id="facebook-button" href="#"
+              ><img src="../assets/images/Facebook.webp" alt="Amazon"
+            /></a>
+          </li>
         </ul>
       </nav>
     </header>
     <h1>Achat</h1>
     <main>
-      <img id="sales-gif" src="" alt="Photos pour la version mise en vente" />
+      <div id="carousel-container">
+        <img
+          id="sales-picture"
+          src="../assets/images/salePicrture.webp"
+          alt="Set de jeu complet"
+        />
+        <div id="row-pictures-container">
+          <img
+            id="first"
+            class="row-picture"
+            onclick="saleCarousel('first')"
+            src="../assets/images/setJeu.webp"
+            alt="image de la boite, des jettons et des cartes"
+          />
+          <img
+            id="second"
+            onclick="saleCarousel('second')"
+            class="row-picture second"
+            src="../assets/images/jetons.webp"
+            alt="gros plan sur un jetton"
+          />
+          <img
+            id="thirth"
+            onclick="saleCarousel('thirth')"
+            class="row-picture"
+            src="../assets/images/cartesBoutique.webp"
+            alt="gros plan sur des cartes disposées en évantail"
+          />
+        </div>
+      </div>
       <p id="sales-text">
-        La bâtarde® - boîte de jeux €20.00<br/> Avec le contenu de cette boîte, jouez
-        de 3 à 8 personnes : <br/> • 2 paquets de 36 cartes<br/> • 30 Jetons<br/> • un livret de
-        règles<br/>
+        La bâtarde® - boîte de jeux €20.00<br />
+        Avec le contenu de cette boîte, jouez de 3 à 8 personnes : <br />
+        • 2 paquets de 36 cartes<br />
+        • 30 Jetons<br />
+        • un livret de règles<br />
       </p>
       <a
         id="amazon-button"
         rel="noopener noreferrer nofollow"
-        target="_blank" 
+        target="_blank"
         href="https://www.amazon.fr/WILSON-JEUX-bat%C3%A2rde-M%C3%A9lange-Original/dp/B0CCSNPTNN"
-        ><img src="../assets/images/AcheterAmazon.webp" alt="Amazon"/></a
-      >
+        ><img src="../assets/images/AcheterAmazon.webp" alt="Amazon"
+      /></a>
       <p id="editor-text">
         Depuis L’été 2023 La Bâtarde est distribuée par Wilson jeux, le jeu est
         désormais disponible dans toute les bonnes boutiques de jeux de France.
       </p>
-      <img id="editor-logo" src="../assets/images/logo-wilson.webp" alt="Logo de l'Editeur du jeu" />
+      <img
+        id="editor-logo"
+        src="../assets/images/logo-wilson.webp"
+        alt="Logo de l'Editeur du jeu"
+      />
     </main>
     <script src="../javascript/burger.js"></script>
+    <script src="../javascript/saleCarousel.js"></script>
   </body>
 </html>
