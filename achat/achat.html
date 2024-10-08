@@ -75,7 +75,36 @@
     </header>
     <h1>Achat</h1>
     <main>
-      <img id="sales-gif" src="" alt="Photos pour la version mise en vente" />
+      <div id="carousel-container">
+        <img
+          id="sales-picture"
+          src="../assets/images/salePicrture.webp"
+          alt="Set de jeu complet"
+        />
+        <div id="row-pictures-container">
+          <img
+            id="first"
+            class="row-picture"
+            onclick="saleCarousel('first')"
+            src="../assets/images/setJeu.webp"
+            alt="image de la boite, des jettons et des cartes"
+          />
+          <img
+            id="second"
+            onclick="saleCarousel('second')"
+            class="row-picture second"
+            src="../assets/images/jetons.webp"
+            alt="gros plan sur un jetton"
+          />
+          <img
+            id="thirth"
+            onclick="saleCarousel('thirth')"
+            class="row-picture"
+            src="../assets/images/cartesBoutique.webp"
+            alt="gros plan sur des cartes disposées en évantail"
+          />
+        </div>
+      </div>
       <p id="sales-text">
         La bâtarde® - boîte de jeux €20.00<br />
         Avec le contenu de cette boîte, jouez de 3 à 8 personnes : <br />
@@ -118,5 +147,6 @@
       </ul>
     </footer>
     <script src="../javascript/burger.js"></script>
+    <script src="../javascript/saleCarousel.js"></script>
   </body>
 </html>
