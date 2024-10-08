@@ -106,7 +106,7 @@ header {
   align-items: center;
   background-color: white;
   position: absolute;
-  top: 50px;
+  top: 120px;
   right: 0;
   width: 70vw;
   max-height: 0;
@@ -150,6 +150,7 @@ header {
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer {
@@ -190,6 +191,22 @@ footer {
   font-weight: bold;
 }
 
+.clover,
+.square,
+.spade,
+.heart {
+  display: none;
+}
+
+#banner {
+  width: 40vw;
+}
+
+#desktoplogo {
+  display: none;
+}
+
+
 @media screen and (min-width: 768px) {
   h1 {
     text-align: center;
@@ -214,14 +231,9 @@ footer {
     position: static;
     box-shadow: none;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     max-height: none;
     opacity: 1;
-  }
-
-  .nav-links li {
-    padding-left: 1vw;
-    padding-right: 1vw;
   }
 
   #facebook {
@@ -258,6 +270,25 @@ footer {
 
   #footer-facebook {
     display: block;
+  }
+
+  .nav-links>li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clover,
+  .square,
+  .heart,
+  .spade {
+    display: flex;
+    width: 1vw;
+  }
+
+  #desktoplogo {
+    display: flex;
+    width: 10vw
   }
 }
 
