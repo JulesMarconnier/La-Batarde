@@ -1,3 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Assure que le contenu remplit toute la hauteur de la page */
+  margin: 0;
+}
+
+main {
+  width: 90%;
+  flex-grow: 1; /* Permet à la section principale de prendre tout l'espace restant */
+  padding-bottom: 100px;
+}
+
 iframe {
   width: 80vw;
   height: 45vw;
@@ -9,11 +23,6 @@ iframe {
 h1 {
   text-align: center;
   color: var(--blue);
-}
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 section {
   margin-top: 2em;
@@ -174,6 +183,44 @@ header {
   justify-content: space-between;
 }
 
+footer {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 0.2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Change la position de absolute à relative */
+  bottom: 0;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#footer-links li {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+#footer-links img {
+  width: 25px;
+}
+
+#footer-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 768px) {
   #rules-text,
   p {
@@ -252,6 +299,10 @@ header {
     display: flex;
     flex-direction: column;
   }
+
+  #footer-facebook {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -265,5 +316,9 @@ header {
   .game-rules {
     width: 100%;
     font-size: 1.2;
+  }
+
+  #footer-links {
+    width: 70%;
   }
 }
