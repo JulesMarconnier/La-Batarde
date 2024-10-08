@@ -137,7 +137,7 @@ header {
   align-items: center;
   background-color: white;
   position: absolute;
-  top: 120px;
+  top: 60px;
   right: 0;
   width: 70vw;
   max-height: 0;
@@ -233,8 +233,12 @@ footer {
   width: 40vw;
 }
 
-#desktoplogo {
+#desktop-logo {
   display: none;
+}
+
+#logo-desktop {
+  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -333,6 +337,9 @@ footer {
   #desktoplogo {
     display: flex;
     width: 10vw
+  }
+  .nav-links li {
+    padding-bottom: 0;
   }
 }
 
