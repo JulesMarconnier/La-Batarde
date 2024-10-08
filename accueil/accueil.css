@@ -2,9 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh; /* Assure que le contenu remplit toute la hauteur de la page */
+  margin: 0;
 }
 main {
   width: 90%;
+  flex-grow: 1; /* Permet à la section principale de prendre tout l'espace restant */
+  padding-bottom: 100px;
 }
 #carousel,
 #carousel-container {
@@ -227,6 +231,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative; /* Change la position de absolute à relative */
+  bottom: 0;
 }
 
 #footer-links {
