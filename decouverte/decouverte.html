@@ -1,218 +1,186 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <title>Découvrir la Bâtarde</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="../assets/favicon.ico"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="decouverte.css" />
-    <link rel="stylesheet" href="../main.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar-mobile">
-        <img id="banner" src="../assets/images/logo-batarde-bandeau.webp" alt="logo LaBatarde bannière mobile" />
-        <div class="burger" id="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <ul class="nav-links" id="nav-links">
-          <li>
-            <a class="purple-link" href="../accueil/accueil.html">Accueil</a>
-            <img class="heart" src="../assets/images/coeur.webp" alt="logo coeur" />
-          </li>
-          <li>
-            <a class="blue-link" href="../decouverte/decouverte.html">Découverte</a>
-            <img class="spade" src="../assets/images/pique.webp" alt="logo pique" />
-          </li>
-          <li>
-            <a class="orange-link" href="../regles/regles.html">Règles</a>
-            <img class="square" src="../assets/images/carreau.webp" alt="logo carreau" />
-          </li>
-          <li>
-            <a class="green-link" href="../conseils/conseils.html">Conseils de jeux</a>
-            <img class="clover" src="../assets/images/trefle.webp" alt="logo trèfle" />
-          </li>
-          <li id="logo-desktop">
-            <img id="desktop-logo" src="../assets/images/logo-batarde.webp" alt="Logo La Batarde Desktop" />
-          </li>
-          <li>
-            <a class="purple-link" href="../palmarès/palmares.html">Palmarès</a>
-            <img class="heart" src="../assets/images/coeur.webp" alt="logo coeur" />
-          </li>
-          <li>
-            <a class="blue-link" href="../collection/collection.html">Collection</a>
-            <img class="spade" src="../assets/images/pique.webp" alt="logo pique" />
-          </li>
-          <li>
-            <a class="orange-link" href="../version-logicielle/version-logicielle.html">Version Logicielle</a>
-            <img class="square" src="../assets/images/carreau.webp" alt="logo carreau" />
-          </li>
-          <li id="nav-buy">
-            <a class="green-link" href="../achat/achat.html">Achat</a>
-          </li>
-          <li>
-            <a class="purple-link" id="green-desktop" href="../ou_jouer/ou_jouer.html">Où Jouer</a>
-            <img class="clover" src="../assets/images/trefle.webp" alt="logo trèfle" />
-          </li>
-          <li id="facebook">
-            <a id="facebook-button" href="#"><img src="../assets/images/Facebook.webp" alt="Facebook" /></a>
-          </li>
-        </ul>
-      </nav>
-      <picture>
-        <source
-          id="carouselDesktop"
-          srcset="../assets/images/bandeau_desktop.webp"
-          media="(min-width: 1200px)"
-        />
-        <img
-          id="carousel"
-          src="../assets/images/bandeau1.webp"
-          alt="jeu de carte de la batarde dans une main"
-          onclick="changeImage('next')"
-        />
-      </picture>
-    </header>
-    <h1>Découverte du jeu</h1>
-    <main>
-      <section id="introduction">
-        <p id="fisrt-paragraph">
-          Vous aimez la belote, le bridge, le whist ou le tarot, découvrez la
-          Bâtarde. La Bâtarde est un nouveau jeu de cartes, c’est un jeu de plis
-          qui combine de façon nouvelle des règles que vous connaissez peut-être
-          déjà. On joue à La Bâtarde avec des cartes spéciales mais, là encore,
-          les joueurs de cartes trouveront vite leurs repères.
-        </p>
-      </section>
-      <section id="text-pictures">
-        <div id="pictures-container">
-          <img
-            id="play-set"
-            src="../assets/images/setJeu.webp"
-            alt="Set de jeu complet"
-          />
-          <div class="secondary-pictures">
-            <img
-              class="other-picture"
-              src="../assets/images/spirale.webp"
-              alt="Jeu de cartes de La Bâtarde disposées en spirale"
-            />
-            <img
-              class="other-picture"
-              src="../assets/images/paquet-jeu.webp"
-              alt="recto/verso du paquet de jeu de la batarde"
-            />
-          </div>
-        </div>
-        <div>
-          <p id="second-paragraph">
-            Jouez à la Bâtarde et vous découvrirez surtout qu’un bon joueur sait
-            tirer parti de pratiquement toutes les mains qu’il reçoit. La
-            mécanique originale de ce jeu permet à ceux qui maîtrisent La
-            Bâtarde de l’emporter quels que soient les cartes que le hasard leur
-            a distribué.
-          </p>
-          <p>
-            Les cartes de Bâtarde, avec leur format particulier, sont des cartes
-            de la plus grande qualité. Les 36 figures sont tirées de dessins
-            originaux créés spécialement pour ce jeu par l'artiste lyonnaise
-            Sylvie Aguettant. Dans l'index de la carte, un système exclusif
-            permet de connaitre facilement sa valeur. Dans chaque boîte de jeu,
-            deux paquets de 36 cartes sont proposés. Les cartes des deux paquets
-            sont identiques de dos mais différenciées de face dans l'index, ce
-            qui permet de jouer avec les deux paquets mélangés quand on est cinq
-            joueurs ou plus dans la même partie. Ce qui peut aussi permettre de
-            faire deux parties simultanées à l'occasion d'un petit tournoi.
-          </p>
-        </div>
-      </section>
-      <div class="picture-container">
-        <img
-          id="spiral-set"
-          src="../assets/images/spirale.webp"
-          alt="Jeu de cartes de La Bâtarde disposées en spirale"
-        />
+<head>
+  <title>Découvrir la Bâtarde</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="decouverte.css" />
+  <link rel="stylesheet" href="../main.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-mobile">
+      <img id="banner" src="../assets/images/logo-batarde-bandeau.webp" alt="logo LaBatarde bannière mobile" />
+      <div class="burger" id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <p>
-        Le livret présente la règle du jeu de façon claire et précise. Il n'est
-        pas nécessaire de connaitre déjà d'autres jeux de plis pour la
-        comprendre. En cas de doute, la vidéo du Grand Prix de Lyon sur ce site
-        permet de voir facilement comment se déroule une partie. Vous pouvez
-        aussi voir les règles en vidéo par Ludochrono
-      </p>
-      <section class="video-container">
-        <iframe
-          src="https://www.youtube.com/embed/fX_LAxPBL10?si=Cor6nM46csW9iSOg"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </section>
-      <section id="last-part">
-        <div id="last-text">
-          <p>
-            Les jetons, 25 jetons blancs, 5 jetons noirs et 2 jetons jaunes,
-            sont gravés et portent le logo et le nom de notre jeu. Les jetons
-            noirs et blancs permettent de marquer les annonces de chaque joueur
-            et de suivre la réalisation de ces annonces au cours de chaque
-            donnes. Les jetons jaunes servent à marquer la place de celui qui a
-            distribué les cartes lors de la manche.
-          </p>
-          <p>
-            Après une pré-édition de 500 exemplaires en 2004 et l’édition bleue
-            tirée a 2000 exemplaires numérotés en 2017, cette édition, la rose,
-            est la première à être distribuée dans toute la France grâce à
-            Wilson Jeux depuis l’été 2023.
-          </p>
-          <p>
-            La Bâtarde est un jeu de cartes passionnant. Une ou deux partie
-            suffisent à se familiariser parfaitement avec la règle et la
-            mécanique du jeu mais il faut plus de temps pour devenir un bon
-            joueur de Bâtarde. Si, comme beaucoup de ceux qui ont essayé ce jeu,
-            vous devenez un joueur régulier, pourquoi ne pas rejoindre un club
-            ou fonder le vôtre entre amis? Ce site est là pour vous aider à le
-            faire. Et pourquoi ne pas devenir, avec un peu plus d'expérience, un
-            très bon joueur et disputer, et même remporter, les prochains
-            championnat du monde!
-          </p>
-        </div>
-        <div class="buying-container">
-          <img
-            class="game-picture"
-            src="../assets/images/labatarde.webp"
-            alt="ensemble de jeu complet de la Bâtarde"
-          />
-          <a class="buy-button" href="../achat/achat.html">Acheter un jeu</a>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <ul id="footer-links">
+      <ul class="nav-links" id="nav-links">
         <li>
-          <a href="../achat/achat.html">Achat</a>
-        </li>
-        <li id="footer-facebook">
-          <a id="facebook-button" href="#"
-            ><img src="../assets/images/Facebook.webp" alt="Facebook"
-          /></a>
+          <a class="purple-link" href="../accueil/accueil.html">Accueil</a>
+          <img class="heart" src="../assets/images/coeur.webp" alt="logo coeur" />
         </li>
         <li>
-          <a class="mailTo" href="mailto:commande@labatarde.com"
-            ><strong>contact</strong></a
-          >
+          <a class="blue-link" href="../decouverte/decouverte.html">Découverte</a>
+          <img class="spade" src="../assets/images/pique.webp" alt="logo pique" />
+        </li>
+        <li>
+          <a class="orange-link" href="../regles/regles.html">Règles</a>
+          <img class="square" src="../assets/images/carreau.webp" alt="logo carreau" />
+        </li>
+        <li>
+          <a class="green-link" href="../conseils/conseils.html">Conseils de jeux</a>
+          <img class="clover" src="../assets/images/trefle.webp" alt="logo trèfle" />
+        </li>
+        <li id="logo-desktop">
+          <img id="desktop-logo" src="../assets/images/logo-batarde.webp" alt="Logo La Batarde Desktop" />
+        </li>
+        <li>
+          <a class="purple-link" href="../palmarès/palmares.html">Palmarès</a>
+          <img class="heart" src="../assets/images/coeur.webp" alt="logo coeur" />
+        </li>
+        <li>
+          <a class="blue-link" href="../collection/collection.html">Collection</a>
+          <img class="spade" src="../assets/images/pique.webp" alt="logo pique" />
+        </li>
+        <li>
+          <a class="orange-link" href="../version-logicielle/version-logicielle.html">Version Logicielle</a>
+          <img class="square" src="../assets/images/carreau.webp" alt="logo carreau" />
+        </li>
+        <li id="nav-buy">
+          <a class="green-link" href="../achat/achat.html">Achat</a>
+        </li>
+        <li>
+          <a class="purple-link" id="green-desktop" href="../ou_jouer/ou_jouer.html">Où Jouer</a>
+          <img class="clover" src="../assets/images/trefle.webp" alt="logo trèfle" />
+        </li>
+        <li id="facebook">
+          <a id="facebook-button" href="https://www.facebook.com/profile.php?id=100064072651788&fref=ts"
+            rel="noopener noreferrer nofollow" target="_blank"><img src="../assets/images/Facebook.webp"
+              alt="Facebook" /></a>
         </li>
       </ul>
-    </footer>
-    <script src="../javascript/burger.js"></script>
-    <script src="../javascript/carousel.js"></script>
-  </body>
+    </nav>
+    <picture>
+      <source id="carouselDesktop" srcset="../assets/images/bandeau_desktop.webp" media="(min-width: 1200px)" />
+      <img id="carousel" src="../assets/images/bandeau1.webp" alt="jeu de carte de la batarde dans une main"
+        onclick="changeImage('next')" />
+    </picture>
+  </header>
+  <h1>Découverte du jeu</h1>
+  <main>
+    <section id="introduction">
+      <p id="fisrt-paragraph">
+        Vous aimez la belote, le bridge, le whist ou le tarot, découvrez la
+        Bâtarde. La Bâtarde est un nouveau jeu de cartes, c’est un jeu de plis
+        qui combine de façon nouvelle des règles que vous connaissez peut-être
+        déjà. On joue à La Bâtarde avec des cartes spéciales mais, là encore,
+        les joueurs de cartes trouveront vite leurs repères.
+      </p>
+    </section>
+    <section id="text-pictures">
+      <div id="pictures-container">
+        <img id="play-set" src="../assets/images/setJeu.webp" alt="Set de jeu complet" />
+        <div class="secondary-pictures">
+          <img class="other-picture" src="../assets/images/spirale.webp"
+            alt="Jeu de cartes de La Bâtarde disposées en spirale" />
+          <img class="other-picture" src="../assets/images/paquet-jeu.webp"
+            alt="recto/verso du paquet de jeu de la batarde" />
+        </div>
+      </div>
+      <div>
+        <p id="second-paragraph">
+          Jouez à la Bâtarde et vous découvrirez surtout qu’un bon joueur sait
+          tirer parti de pratiquement toutes les mains qu’il reçoit. La
+          mécanique originale de ce jeu permet à ceux qui maîtrisent La
+          Bâtarde de l’emporter quels que soient les cartes que le hasard leur
+          a distribué.
+        </p>
+        <p>
+          Les cartes de Bâtarde, avec leur format particulier, sont des cartes
+          de la plus grande qualité. Les 36 figures sont tirées de dessins
+          originaux créés spécialement pour ce jeu par l'artiste lyonnaise
+          Sylvie Aguettant. Dans l'index de la carte, un système exclusif
+          permet de connaitre facilement sa valeur. Dans chaque boîte de jeu,
+          deux paquets de 36 cartes sont proposés. Les cartes des deux paquets
+          sont identiques de dos mais différenciées de face dans l'index, ce
+          qui permet de jouer avec les deux paquets mélangés quand on est cinq
+          joueurs ou plus dans la même partie. Ce qui peut aussi permettre de
+          faire deux parties simultanées à l'occasion d'un petit tournoi.
+        </p>
+      </div>
+    </section>
+    <div class="picture-container">
+      <img id="spiral-set" src="../assets/images/spirale.webp" alt="Jeu de cartes de La Bâtarde disposées en spirale" />
+    </div>
+    <p>
+      Le livret présente la règle du jeu de façon claire et précise. Il n'est
+      pas nécessaire de connaitre déjà d'autres jeux de plis pour la
+      comprendre. En cas de doute, la vidéo du Grand Prix de Lyon sur ce site
+      permet de voir facilement comment se déroule une partie. Vous pouvez
+      aussi voir les règles en vidéo par Ludochrono
+    </p>
+    <section class="video-container">
+      <iframe src="https://www.youtube.com/embed/fX_LAxPBL10?si=Cor6nM46csW9iSOg" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="last-part">
+      <div id="last-text">
+        <p>
+          Les jetons, 25 jetons blancs, 5 jetons noirs et 2 jetons jaunes,
+          sont gravés et portent le logo et le nom de notre jeu. Les jetons
+          noirs et blancs permettent de marquer les annonces de chaque joueur
+          et de suivre la réalisation de ces annonces au cours de chaque
+          donnes. Les jetons jaunes servent à marquer la place de celui qui a
+          distribué les cartes lors de la manche.
+        </p>
+        <p>
+          Après une pré-édition de 500 exemplaires en 2004 et l’édition bleue
+          tirée a 2000 exemplaires numérotés en 2017, cette édition, la rose,
+          est la première à être distribuée dans toute la France grâce à
+          Wilson Jeux depuis l’été 2023.
+        </p>
+        <p>
+          La Bâtarde est un jeu de cartes passionnant. Une ou deux partie
+          suffisent à se familiariser parfaitement avec la règle et la
+          mécanique du jeu mais il faut plus de temps pour devenir un bon
+          joueur de Bâtarde. Si, comme beaucoup de ceux qui ont essayé ce jeu,
+          vous devenez un joueur régulier, pourquoi ne pas rejoindre un club
+          ou fonder le vôtre entre amis? Ce site est là pour vous aider à le
+          faire. Et pourquoi ne pas devenir, avec un peu plus d'expérience, un
+          très bon joueur et disputer, et même remporter, les prochains
+          championnat du monde!
+        </p>
+      </div>
+      <div class="buying-container">
+        <img class="game-picture" src="../assets/images/labatarde.webp" alt="ensemble de jeu complet de la Bâtarde" />
+        <a class="buy-button" href="../achat/achat.html">Acheter un jeu</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <ul id="footer-links">
+      <li>
+        <a href="../achat/achat.html">Achat</a>
+      </li>
+      <li id="footer-facebook">
+        <a id="facebook-button" href="https://www.facebook.com/profile.php?id=100064072651788&fref=ts"
+          rel="noopener noreferrer nofollow" target="_blank"><img src="../assets/images/Facebook.webp"
+            alt="Facebook" /></a>
+      </li>
+      <li>
+        <a class="mailTo" href="mailto:commande@labatarde.com"><strong>contact</strong></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="../javascript/burger.js"></script>
+  <script src="../javascript/carousel.js"></script>
+</body>
+
 </html>
