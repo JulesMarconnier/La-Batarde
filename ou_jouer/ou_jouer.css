@@ -30,6 +30,9 @@ h2 {
   padding: 1em 0em;
 }
 
+img {
+  border-radius: 10px;
+}
 p {
   width: 80vw;
   max-width: 400px;
