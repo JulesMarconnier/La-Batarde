@@ -200,6 +200,7 @@ footer {
 
 #banner {
   width: 40vw;
+  max-width: 200px;
 }
 
 #desktop-logo {
@@ -258,6 +259,7 @@ footer {
 
   .navbar-mobile {
     width: 100%;
+    margin-bottom: 0.5em;
   }
 
   #nav-buy {
@@ -290,7 +292,7 @@ footer {
     width: 1vw;
   }
 
-  #desktoplogo {
+  #desktop-logo {
     display: flex;
     width: 10vw
   }
