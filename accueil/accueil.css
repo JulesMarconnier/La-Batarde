@@ -321,23 +321,6 @@ footer {
     position: relative;
   }
 
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  #next {
-    right: 10px;
-  }
-
-  #prev {
-    left: 10px;
-  }
-
   main {
     display: flex;
     flex-direction: column-reverse;
