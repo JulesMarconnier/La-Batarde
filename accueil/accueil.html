@@ -63,23 +63,17 @@
         </li>
       </ul>
     </nav>
-    <picture id="carousel-container">
-      <source id="carouselDesktop" srcset="../assets/images/bandeau_desktop.webp" media="(min-width:
-        1200px)" />
-      <img id="carousel" src="../assets/images/bandeau1.webp" alt="jeu de carte de la batarde dans une main" />
-      <button onclick="changeImage('prev')" id="prev" class="carousel-button">
-        <img alt="bouton suivant" class="carousel-svg" src="../assets/svg/prev.svg" />
-      </button>
-      <button id="next" onclick="changeImage('next')" class="carousel-button">
-        <img alt="bouton précedent" class="carousel-svg" src="../assets/svg/next.svg" />
-      </button>
+    <picture>
+      <source id="carouselDesktop" srcset="../assets/images/bandeau_desktop.webp" media="(min-width: 1200px)" />
+      <img id="carousel" src="../assets/images/bandeau1.webp" alt="jeu de carte de la batarde dans une main"
+        onclick="changeImage('next')" />
     </picture>
   </header>
   <main>
     <div id="wrap">
       <section class="new-edition">
         <h1>La nouvelle édition de la Bâtarde est sortie !</h1>
-        <img class="game-picture" src="../assets/images/labatarde.webp" alt="ensemble de jeu complet de la Bâtarde" />
+        <img class="game-picture" src="../assets/images/salePicture.webp" alt="ensemble de jeu complet de la Bâtarde" />
         <p id="new-edition-text">
           Distribuée par Wilson Jeux, elle est désormais disponible dans
           toutes les bonnes boutiques de jeux de France.
@@ -151,5 +145,7 @@
   <script src="../javascript/burger.js"></script>
   <script src="../javascript/carousel.js"></script>
 </body>
+
+
 
 </html>
