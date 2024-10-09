@@ -123,32 +123,18 @@
           </li>
         </ul>
       </nav>
-      <picture id="carousel-container">
+      <picture>
         <source
           id="carouselDesktop"
           srcset="../assets/images/bandeau_desktop.webp"
-          media="(min-width:
-        1200px)"
+          media="(min-width: 1200px)"
         />
         <img
           id="carousel"
           src="../assets/images/bandeau1.webp"
           alt="jeu de carte de la batarde dans une main"
+          onclick="changeImage('next')"
         />
-        <button onclick="changeImage('prev')" id="prev" class="carousel-button">
-          <img
-            alt="bouton suivant"
-            class="carousel-svg"
-            src="../assets/svg/prev.svg"
-          />
-        </button>
-        <button id="next" onclick="changeImage('next')" class="carousel-button">
-          <img
-            alt="bouton précedent"
-            class="carousel-svg"
-            src="../assets/svg/next.svg"
-          />
-        </button>
       </picture>
     </header>
     <main>

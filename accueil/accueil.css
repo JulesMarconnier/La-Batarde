@@ -236,7 +236,7 @@ header {
   margin: 1em;
 }
 
-#facebook-button>img {
+#facebook-button > img {
   width: 10vw;
 }
 
@@ -323,23 +323,6 @@ footer {
     position: relative;
   }
 
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  #next {
-    right: 10px;
-  }
-
-  #prev {
-    left: 10px;
-  }
-
   main {
     display: flex;
     flex-direction: column-reverse;
@@ -410,7 +393,7 @@ footer {
     display: block;
   }
 
-  .nav-links>li {
+  .nav-links > li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +409,7 @@ footer {
 
   #desktoplogo {
     display: flex;
-    width: 10vw
+    width: 10vw;
   }
 
   .nav-links li {
