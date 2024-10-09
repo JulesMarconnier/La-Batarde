@@ -23,7 +23,9 @@ h2 {
   color: var(--orange);
   padding: 1em 0em;
 }
-
+img {
+  border-radius: 10px;
+}
 p {
   text-align: justify;
   padding: 1em 0em;
