@@ -250,10 +250,13 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    column-gap: 1em;
   }
   #software-version {
     grid-row: 1/5;
     align-self: center;
+    position : relative;
+    top: -12%;
   }
   .download-button {
     width: 20vw;
