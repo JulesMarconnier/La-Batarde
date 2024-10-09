@@ -2,13 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; /* Assure que le contenu remplit toute la hauteur de la page */
+  min-height: 100vh;
   margin: 0;
 }
 
 main {
   width: 90%;
-  flex-grow: 1; /* Permet à la section principale de prendre tout l'espace restant */
+  flex-grow: 1;
   padding-bottom: 100px;
 }
 
@@ -191,7 +191,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Change la position de absolute à relative */
+  position: relative;
   bottom: 0;
 }
 
@@ -214,6 +214,7 @@ footer {
 
 #footer-links img {
   width: 25px;
+  vertical-align: middle;
 }
 
 #footer-links a {
@@ -284,7 +285,6 @@ footer {
     opacity: 1;
   }
 
-
   #facebook {
     display: none;
   }
@@ -322,7 +322,7 @@ footer {
     display: block;
   }
 
-  .nav-links>li {
+  .nav-links > li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,7 +338,7 @@ footer {
 
   #desktop-logo {
     display: flex;
-    width: 10vw
+    width: 10vw;
   }
   .nav-links li {
     padding-bottom: 0;
