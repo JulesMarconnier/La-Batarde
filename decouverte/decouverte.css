@@ -168,6 +168,7 @@ header {
   display: flex;
   opacity: 1;
   max-height: 800px;
+  padding-top: 0.5em;
 }
 
 .burger.active .line:nth-child(1) {
@@ -187,6 +188,7 @@ header {
 }
 #facebook-button > img {
   width: 10vw;
+  max-width: 50px;
 }
 
 #facebook {
