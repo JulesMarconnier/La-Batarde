@@ -1,3 +1,5 @@
+/* ================= MAIN ================= */
+
 body {
   display: flex;
   flex-direction: column;
@@ -110,7 +112,7 @@ iframe {
   max-width: 691px;
   max-height: 389px;
 }
-
+/* ================= HEADER ================= */
 header {
   display: flex;
   justify-content: space-between;
@@ -210,10 +212,10 @@ header {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-#facebook-button {
+.facebook-button {
   margin: 1em;
 }
-#facebook-button > img {
+.facebook-button > img {
   width: 10vw;
   max-width: 50px;
 }
@@ -228,7 +230,26 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.clover,
+.square,
+.spade,
+.heart {
+  display: none;
+}
 
+#banner {
+  width: 40vw;
+  max-width: 200px;
+}
+
+#desktop-logo {
+  display: none;
+}
+
+#logo-desktop {
+  padding-bottom: 0;
+}
+/* ================= FOOTER ================= */
 footer {
   width: 100%;
   background-color: #f1f1f1;
@@ -266,25 +287,6 @@ footer {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-}
-.clover,
-.square,
-.spade,
-.heart {
-  display: none;
-}
-
-#banner {
-  width: 40vw;
-  max-width: 200px;
-}
-
-#desktop-logo {
-  display: none;
-}
-
-#logo-desktop {
-  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
