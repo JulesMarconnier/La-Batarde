@@ -242,6 +242,7 @@ footer {
   align-items: center;
   position: relative;
   bottom: 0;
+  flex-direction: column;
 }
 
 #footer-links {
@@ -273,6 +274,17 @@ footer {
   font-weight: bold;
 }
 
+#jam-dev {
+  list-style-type: none;
+  font-size: 0.7em;
+  padding: 0.5rem;
+}
+
+#jam-dev a {
+  text-decoration: none;
+  color: black;
+}
+/* =================      ================= */
 
 @media screen and (min-width: 768px) {
   #logo {
