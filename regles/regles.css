@@ -1,3 +1,5 @@
+/* ================= MAIN ================= */
+
 body {
   display: flex;
   flex-direction: column;
@@ -67,6 +69,8 @@ section {
 #rules-text {
   margin-bottom: 1.5em;
 }
+
+/* ================= HEADER ================= */
 
 header {
   display: flex;
@@ -166,10 +170,10 @@ header {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-#facebook-button {
+.facebook-button {
   margin: 1em;
 }
-#facebook-button > img {
+.facebook-button > img {
   width: 10vw;
   max-width: 50px;
   border-radius: 10px;
@@ -185,6 +189,28 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.clover,
+.square,
+.spade,
+.heart {
+  display: none;
+}
+
+#banner {
+  width: 40vw;
+  max-width: 200px;
+}
+
+#desktop-logo {
+  display: none;
+}
+
+#logo-desktop {
+  padding-bottom: 0;
+}
+
+/* ================= FOOTER ================= */
 
 footer {
   width: 100%;
@@ -224,26 +250,6 @@ footer {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-}
-
-.clover,
-.square,
-.spade,
-.heart {
-  display: none;
-}
-
-#banner {
-  width: 40vw;
-  max-width: 200px;
-}
-
-#desktop-logo {
-  display: none;
-}
-
-#logo-desktop {
-  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -363,7 +369,7 @@ footer {
   }
   .game-rules {
     width: 100%;
-    font-size: 1.2;
+    font-size: 1.2em;
   }
 
   #footer-links {

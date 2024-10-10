@@ -1,3 +1,5 @@
+/* ================= MAIN ================= */
+
 body {
   display: flex;
   flex-direction: column;
@@ -10,6 +12,9 @@ main {
   flex-grow: 1;
   padding-bottom: 100px;
 }
+
+/* ================= CAROUSEL ================= */
+
 #carousel,
 #carousel-containe {
   display: none;
@@ -17,6 +22,8 @@ main {
 .carousel-svg {
   width: 4em;
 }
+/* ================================== */
+
 h1 {
   text-align: center;
   color: var(--blue);
@@ -83,6 +90,8 @@ iframe {
 .secondary-pictures {
   display: none;
 }
+
+/* ================= HEADER ================= */
 
 header {
   display: flex;
@@ -183,10 +192,10 @@ header {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-#facebook-button {
+.facebook-button {
   margin: 1em;
 }
-#facebook-button > img {
+.facebook-button > img {
   width: 10vw;
   max-width: 50px;
 }
@@ -201,6 +210,27 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.clover,
+.square,
+.spade,
+.heart {
+  display: none;
+}
+
+#banner {
+  width: 40vw;
+  max-width: 200px;
+}
+
+#desktop-logo {
+  display: none;
+}
+
+#logo-desktop {
+  padding-bottom: 0;
+}
+
+/* ================= FOOTER ================= */
 
 footer {
   width: 100%;
@@ -239,26 +269,6 @@ footer {
   text-decoration: none;
   color: #000;
   font-weight: bold;
-}
-
-.clover,
-.square,
-.spade,
-.heart {
-  display: none;
-}
-
-#banner {
-  width: 40vw;
-  max-width: 200px;
-}
-
-#desktop-logo {
-  display: none;
-}
-
-#logo-desktop {
-  padding-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
