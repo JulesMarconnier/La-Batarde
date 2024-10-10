@@ -135,7 +135,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   position: absolute;
   top: 60px;
   right: 0;
@@ -173,6 +172,7 @@ header {
 #facebook-button > img {
   width: 10vw;
   max-width: 50px;
+  border-radius: 10px;
 }
 
 #facebook {
@@ -217,6 +217,7 @@ footer {
 #footer-links img {
   width: 25px;
   vertical-align: middle;
+  border-radius: 10px;
 }
 
 #footer-links a {
