@@ -25,6 +25,7 @@ iframe {
 h1 {
   text-align: center;
   color: var(--blue);
+  margin-top: 1em;
 }
 section {
   margin-top: 2em;
@@ -254,9 +255,13 @@ footer {
 }
 
 #jam-dev {
+  display: flex;
   list-style-type: none;
   font-size: 0.7em;
   padding: 0.5rem;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
 }
 
 #jam-dev a {
@@ -360,7 +365,8 @@ footer {
   .heart,
   .spade {
     display: flex;
-    width: 1vw;
+    width: 2vw;
+    margin-top: 1em;
   }
 
   #desktop-logo {

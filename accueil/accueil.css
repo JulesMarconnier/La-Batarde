@@ -112,7 +112,7 @@ iframe {
 }
 
 .flag {
-  width: 15vw;
+  width: 8vw;
   max-width: 154px;
   height: 100%;
   border-radius: 0;
@@ -130,6 +130,12 @@ iframe {
   font-size: 0.9em;
   text-align: center;
 }
+
+#logo-principal {
+  display: none;
+}
+
+
 /* ================= HEADER ================= */
 header {
   display: flex;
@@ -294,6 +300,7 @@ footer {
   padding: 0;
   margin: 0;
   text-align: center;
+  height: 5vh;
 }
 
 #footer-links li {
@@ -314,9 +321,13 @@ footer {
 }
 
 #jam-dev {
+  display: flex;
   list-style-type: none;
   font-size: 0.7em;
   padding: 0.5rem;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
 }
 
 #jam-dev a {
@@ -360,7 +371,7 @@ footer {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .nav-links {
@@ -424,7 +435,8 @@ footer {
   .heart,
   .spade {
     display: flex;
-    width: 1vw;
+    width: 2vw;
+    margin-top: 1em;
   }
 
   #desktop-logo {
@@ -434,6 +446,13 @@ footer {
 
   .nav-links li {
     padding-bottom: 0;
+  }
+
+  #logo-principal {
+    width: 50vw;
+    align-self: center;
+    margin-bottom: 3em;
+    display: flex;
   }
 }
 

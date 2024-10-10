@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
 main {
   width: 90%;
   flex-grow: 1;
@@ -19,28 +20,35 @@ main {
 #carousel-containe {
   display: none;
 }
+
 .carousel-svg {
   width: 4em;
 }
+
 /* ================================== */
 
 h1 {
   text-align: center;
   color: var(--blue);
 }
+
 #fisrt-paragraph {
   font-weight: bold;
 }
+
 p {
   text-align: justify;
 }
+
 h1,
 p {
   padding: 1em 0em;
 }
+
 img {
   border-radius: 10px;
 }
+
 #play-set,
 #spiral-set {
   height: auto;
@@ -54,6 +62,7 @@ img {
   justify-content: center;
   margin: 1em 0em;
 }
+
 .buying-container {
   display: flex;
   justify-content: center;
@@ -62,6 +71,7 @@ img {
   gap: 1em;
   margin: 1em 0em;
 }
+
 .buy-button {
   text-decoration: none;
   background-color: var(--blue);
@@ -71,24 +81,43 @@ img {
   padding: 0.6em;
   font-weight: 600;
 }
+
 .game-picture {
   height: auto;
   width: 80vw;
   max-width: 400px;
 }
+
 .video-container {
   display: flex;
   justify-content: center;
   margin: 2em 0em;
 }
+
 iframe {
   width: 80vw;
   height: 45vw;
   max-width: 691px;
   max-height: 389px;
 }
+
 .secondary-pictures {
   display: none;
+}
+
+#logo-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#logo-wilson {
+  width: 30vw;
+}
+
+#logo-piatnik {
+  width: 28vw;
 }
 
 /* ================= HEADER ================= */
@@ -98,6 +127,7 @@ header {
   justify-content: space-between;
   width: 100%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -146,10 +176,12 @@ header {
   color: var(--blue);
   font-weight: bold;
 }
+
 .orange-link {
   color: var(--orange);
   font-weight: bold;
 }
+
 .green-link {
   color: var(--green);
   font-weight: bold;
@@ -195,7 +227,8 @@ header {
 .facebook-button {
   margin: 1em;
 }
-.facebook-button > img {
+
+.facebook-button>img {
   width: 10vw;
   max-width: 50px;
 }
@@ -203,6 +236,7 @@ header {
 #facebook {
   justify-self: flex-end;
 }
+
 .navbar-mobile {
   display: flex;
   flex-direction: row;
@@ -210,6 +244,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .clover,
 .square,
 .spade,
@@ -273,15 +308,20 @@ footer {
 }
 
 #jam-dev {
+  display: flex;
   list-style-type: none;
   font-size: 0.7em;
   padding: 0.5rem;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
 }
 
 #jam-dev a {
   text-decoration: none;
   color: black;
 }
+
 /* =================      ================= */
 
 @media screen and (min-width: 768px) {
@@ -295,46 +335,57 @@ footer {
     margin-bottom: 3em;
     border-radius: 0px;
   }
+
   #carousel-container {
     display: block;
     position: relative;
   }
+
   h1 {
     text-align: left;
     width: 90%;
   }
+
   p {
     font-size: 1.1em;
   }
+
   .secondary-pictures {
     display: flex;
     flex-direction: column;
     gap: 2%;
   }
+
   .other-picture {
     height: 22vw;
     width: auto;
     max-width: 331px;
     max-height: 220px;
   }
+
   #play-set {
     height: 45vw;
     width: auto;
     max-width: 450px;
     max-height: 450px;
   }
+
   #pictures-container {
     gap: 0.5em;
   }
+
   .picture-container {
     display: none;
   }
+
   .video-container {
     margin: 3em 0em;
   }
+
   .buying-container {
     gap: 2em;
   }
+
   .nav-links {
     display: flex;
     flex-direction: row;
@@ -349,6 +400,7 @@ footer {
   #facebook {
     display: none;
   }
+
   .burger {
     display: none;
   }
@@ -374,6 +426,7 @@ footer {
   #green-desktop {
     color: var(--green);
   }
+
   header {
     display: flex;
     flex-direction: column;
@@ -382,7 +435,8 @@ footer {
   #footer-facebook {
     display: block;
   }
-  .nav-links > li {
+
+  .nav-links>li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,17 +447,28 @@ footer {
   .heart,
   .spade {
     display: flex;
-    width: 1vw;
+    width: 2vw;
+    margin-top: 1em;
   }
 
   #desktop-logo {
     display: flex;
     width: 10vw;
   }
+
   .nav-links li {
     padding-bottom: 0;
   }
+
+  #logo-wilson {
+    width: 19vw;
+  }
+
+  #logo-piatnik {
+    width: 17vw;
+  }
 }
+
 @media screen and (min-width: 1200px) {
   #text-pictures {
     display: flex;
@@ -411,39 +476,56 @@ footer {
     gap: 3%;
     margin-top: 2em;
   }
+
   main,
   h1 {
     max-width: 1160px;
   }
+
   #pictures-container {
     width: 58%;
     margin: 0;
     max-height: 383px;
   }
+
   #play-set {
     height: 100%;
   }
+
   .other-picture {
     height: 49%;
   }
+
   #second-paragraph {
     padding-top: 0;
   }
+
   #last-part {
     display: flex;
     justify-content: space-between;
   }
+
   #last-text {
     width: 55%;
   }
+
   .game-picture {
     max-width: 383px;
   }
+
   .buying-container {
     padding-right: 1.5em;
   }
 
   #footer-links {
     width: 70%;
+  }
+
+  #logo-wilson {
+    width: 9vw;
+  }
+
+  #logo-piatnik {
+    width: 8vw;
   }
 }

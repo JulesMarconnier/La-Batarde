@@ -71,7 +71,7 @@ img {
 }
 
 #logo-federation {
-  width: 20vw;
+  width: 35vw;
   max-width: 400px;
 }
 
@@ -291,9 +291,13 @@ footer {
 }
 
 #jam-dev {
+  display: flex;
   list-style-type: none;
   font-size: 0.7em;
   padding: 0.5rem;
+  background-color: white;
+  width: 100%;
+  justify-content: center;
 }
 
 #jam-dev a {
@@ -425,7 +429,8 @@ footer {
   .heart,
   .spade {
     display: flex;
-    width: 1vw;
+    width: 2vw;
+    margin-top: 1em;
   }
 
   #desktop-logo {
