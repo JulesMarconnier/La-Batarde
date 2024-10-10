@@ -24,3 +24,11 @@ button,
 li {
   font-family: "proximanova_regular";
 }
+
+body {
+  background-image: url(assets/images/trame-batarde.webp);
+}
+
+.nav-links {
+  background-color: transparent;
+}
