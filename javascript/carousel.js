@@ -1,13 +1,14 @@
 const images = [
-  "../assets/images/bandeau1.webp",
-  "../assets/images/bandeau3.webp",
-  "../assets/images/bandeau4.webp",
+  "../assets/images/carroussel-1920x466.1.webp",
+  "../assets/images/carroussel-1920x466.2.webp",
+  "../assets/images/carroussel-1920x466.4.webp",
 ];
 
 const imagesDesktop = [
-  "../assets/images/bandeau_desktop.webp",
-  "../assets/images/bandeau2_desktop.webp",
-  "../assets/images/bandeau3_desktop.webp",
+  "../assets/images/carroussel-1920x466.1.webp",
+  "../assets/images/carroussel-1920x466.2.webp",
+  "../assets/images/carroussel-1920x466.3.webp",
+  "../assets/images/carroussel-1920x466.4.webp",
 ];
 let currentIndex = 0;
 
