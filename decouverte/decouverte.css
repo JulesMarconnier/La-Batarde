@@ -109,7 +109,6 @@ iframe {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #logo-wilson {
@@ -165,6 +164,9 @@ header {
 .nav-links li a {
   text-decoration: none;
   font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .purple-link {
@@ -228,7 +230,7 @@ header {
   margin: 1em;
 }
 
-.facebook-button>img {
+.facebook-button > img {
   width: 10vw;
   max-width: 50px;
 }
@@ -436,7 +438,7 @@ footer {
     display: block;
   }
 
-  .nav-links>li {
+  .nav-links > li {
     display: flex;
     flex-direction: column;
     align-items: center;

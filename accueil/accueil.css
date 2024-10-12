@@ -135,7 +135,6 @@ iframe {
   display: none;
 }
 
-
 /* ================= HEADER ================= */
 header {
   display: flex;
@@ -180,6 +179,9 @@ header {
 .nav-links li a {
   text-decoration: none;
   font-size: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .purple-link {
