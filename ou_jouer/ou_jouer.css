@@ -88,7 +88,7 @@ a {
   text-decoration: none;
 }
 
-h4{
+h4 {
   padding-top: 1em;
   padding-bottom: 0.3em;
 }
@@ -259,6 +259,7 @@ footer {
   padding: 0;
   margin: 0;
   text-align: center;
+  height: 5vh;
 }
 
 #footer-links li {
