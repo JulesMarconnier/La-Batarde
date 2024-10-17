@@ -1,11 +1,11 @@
 const images = [
-  "../assets/images/carroussel-1920x466.1.webp",
+  "../assets/images/carroussel-1920x466.1-_1_.webp",
   "../assets/images/carroussel-1920x466.2.webp",
   "../assets/images/carroussel-1920x466.4.webp",
 ];
 
 const imagesDesktop = [
-  "../assets/images/carroussel-1920x466.1.webp",
+  "../assets/images/carroussel-1920x466.1-_1_.webp",
   "../assets/images/carroussel-1920x466.2.webp",
   "../assets/images/carroussel-1920x466.3.webp",
   "../assets/images/carroussel-1920x466.4.webp",

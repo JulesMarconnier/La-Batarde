@@ -103,7 +103,7 @@ header {
   font-weight: bold;
 }
 .mailTo {
-  color: black;
+  color: var(--purple);
   text-decoration: none;
 }
 .blue-link {

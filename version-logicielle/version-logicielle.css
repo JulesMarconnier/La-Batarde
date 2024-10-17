@@ -54,6 +54,11 @@ img {
 #second-title {
   padding-top: 2em;
 }
+
+.mailTo {
+  color: var(--purple);
+  text-decoration: none;
+}
 /* ================= HEADER ================= */
 header {
   display: flex;
