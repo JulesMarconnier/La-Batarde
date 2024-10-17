@@ -91,6 +91,17 @@ img {
   gap: 1em;
 }
 
+#world-cup-2023-containers {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.world-cup-2023 {
+  width: 40vw;
+}
+
 .world-cup-2019 {
   width: 40vw;
 }
@@ -349,7 +360,7 @@ footer {
   }
 
   #logo-federation {
-    width: 5vw;
+    width: 10vw;
     grid-column: 2 / 3;
     grid-row: 1 /3;
     justify-self: end;
@@ -444,6 +455,10 @@ footer {
   .nav-links li {
     padding-bottom: 0;
   }
+
+  #prizes2023 {
+    width : 45vw
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -459,5 +474,8 @@ footer {
 
   #footer-links {
     width: 70%;
+  }
+  #final-table-desktop {
+    width: 68vw;
   }
 }
