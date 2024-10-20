@@ -351,6 +351,7 @@ footer {
   #prizes {
     max-width: none;
     width: 60vw;
+    max-width: 1160px;
   }
   #top-page {
     display: grid;
@@ -377,6 +378,7 @@ footer {
 
   #final-table-desktop {
     flex-direction: column-reverse;
+    max-width: 1160px;
   }
 
   #winner-desktop {
@@ -457,7 +459,7 @@ footer {
   }
 
   #prizes2023 {
-    width : 45vw
+    width: 45vw;
   }
 }
 
