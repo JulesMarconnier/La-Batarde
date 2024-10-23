@@ -1,15 +1,22 @@
+let basePath = "../assets/images/";
+
+if (window.location.pathname.includes("accueil.html")) {
+  basePath = "./assets/images/";
+}
+
 const images = [
-  "../assets/images/carroussel-1920x466.1-_1_.webp",
-  "../assets/images/carroussel-1920x466.2.webp",
-  "../assets/images/carroussel-1920x466.4.webp",
+  `${basePath}carroussel-1920x466.1-_1_.webp`,
+  `${basePath}carroussel-1920x466.2.webp`,
+  `${basePath}carroussel-1920x466.4.webp`,
 ];
 
 const imagesDesktop = [
-  "../assets/images/carroussel-1920x466.1-_1_.webp",
-  "../assets/images/carroussel-1920x466.2.webp",
-  "../assets/images/carroussel-1920x466.3.webp",
-  "../assets/images/carroussel-1920x466.4.webp",
+  `${basePath}carroussel-1920x466.1-_1_.webp`,
+  `${basePath}carroussel-1920x466.2.webp`,
+  `${basePath}carroussel-1920x466.3.webp`,
+  `${basePath}carroussel-1920x466.4.webp`,
 ];
+
 let currentIndex = 0;
 
 function changeImage(button) {
