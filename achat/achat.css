@@ -228,6 +228,7 @@ footer {
   margin: 0;
   text-align: center;
   height: 5vh;
+  min-height: 30px;
 }
 
 #footer-links li {
@@ -284,7 +285,7 @@ footer {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 60vh 20vh 30vh;
+    grid-template-rows: 6fr 2fr 3fr;
     justify-items: center;
     column-gap: 5em;
   }

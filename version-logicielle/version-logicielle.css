@@ -223,6 +223,7 @@ footer {
   margin: 0;
   text-align: center;
   height: 5vh;
+  min-height: 30px;
 }
 
 #footer-links li {
