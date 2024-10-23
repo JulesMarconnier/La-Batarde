@@ -1,6 +1,6 @@
 let basePath = "../assets/images/";
 
-if (window.location.pathname.includes("accueil.html")) {
+if (window.location.pathname.includes("index.html")) {
   basePath = "./assets/images/";
 }
 
